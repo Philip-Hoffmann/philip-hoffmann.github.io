@@ -12,7 +12,7 @@ window.addEventListener('scroll', function() {
 
 // Skifte ud med navn på billed F.Eks 'images/FarligPeter"
 const images = [
-    'images/Ingenide,
+    'images/Ingenide',
     'images/Gruppebilled?',
     'images/Hund'
 ];
