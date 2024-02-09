@@ -5,11 +5,21 @@ body {
     margin: 0;
 }
 
-header {
+header { 
     background-color: #900; /* Dark Red */
     color: white;
     text-align: center;
     padding: 1em;
+    position: fixed; /* Bro bevæger sig ingen steder */
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: top 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Add a class to handle the 'hidden' state when scrolled */
+header.hide {
+    top: -100px; /* Move the header offscreen */
 }
 
 .image-gallery {
