@@ -1,5 +1,14 @@
 const imageGallery = document.querySelector('.image-gallery');
 const videoContainer = document.querySelector('.video-container');
+const header = document.querySelector('header'); 
+
+window.addEventListener('scroll', function() {
+    if (window.scrollY > 50) { // Scroll distance before hiding
+        header.classList.add('hide');    
+    } else {
+        header.classList.remove('hide');  
+    }
+});
 
 // Skifte ud med navn på billed F.Eks 'images/FarligPeter"
 const images = [
