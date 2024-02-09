@@ -1,13 +1,14 @@
 const imageGallery = document.querySelector('.image-gallery');
 const videoContainer = document.querySelector('.video-container');
 
-// Sample Data (You'll replace this with your actual file names)
+// Skifte ud med navn på billed F.Eks 'images/FarligPeter"
 const images = [
-    'images/creepy-scene-1.jpg',
-    'images/monster-silhouette.png',
-    'images/abandoned-house.jpg'
+    'images/Ingenide,
+    'images/Gruppebilled?',
+    'images/Hund'
 ];
 
+// Og her med navn på Film
 const featuredVideo = 'videos/short-film-clip.mp4';
 
 // Load Images
