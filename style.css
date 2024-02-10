@@ -30,7 +30,6 @@ video {
 ul{
     display: flex;
     justfiy-content: center;
-    align-content: center;
 }
 @media (max-width: 768px) {
     #film-logo {
