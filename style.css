@@ -10,10 +10,10 @@ header {
 }
 
 #logo {
-    width: 200px;  /* Adjust width as needed */
+    max-width: 100%;  /* Adjust width as needed */
     height: auto;  /* Maintain aspect ratio */
     display: block; /* Makes the logo act as a block element */
-    margin: 0 auto; /* Additional centering */
+    margin: 20px auto; /* Additional centering */
 }
 
 /* Add a class to handle the 'hidden' state when scrolled */
