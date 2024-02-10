@@ -35,6 +35,9 @@ ul{
     display: flex;
     justify-content: center;
 }
+ul li{
+    color: white;
+}
 @media (max-width: 768px) {
     #film-logo {
         max-width: 150px;
