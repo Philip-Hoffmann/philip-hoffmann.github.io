@@ -5,16 +5,15 @@ body {
     margin: 0;
 }
 
-header { 
-    /*background-color: #900; /* Dark Red */
-    color: white;
-    text-align: center;
-    padding: 1em;
-    position: fixed; /* Bro bevæger sig ingen steder */
-    top: 0;
-    left: 0;
-    width: 100%;
-    transition: top 0.3s ease-in-out; /* Smooth transition */
+header {
+    text-align: center;  /* Center the logo if desired */
+}
+
+#logo {
+    width: 200px;  /* Adjust width as needed */
+    height: auto;  /* Maintain aspect ratio */
+    display: block; /* Makes the logo act as a block element */
+    margin: 0 auto; /* Additional centering */
 }
 
 /* Add a class to handle the 'hidden' state when scrolled */
