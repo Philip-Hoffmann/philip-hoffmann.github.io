@@ -3,28 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horror Project</title>
+    <title>Horror Short Film</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <img src="HorrorLogo.png" alt="Your Company Logo" id="logo"> 
+        <img src="HorrorLogo.png" alt="Film Logo" id="film-logo">
     </header>
-
-    <main>
-        <section class="images">
-            <h2>Images</h2>
-            <div class="image-gallery">
-                </div>
-        </section>
-
-        <section class="video">
-            <h2>Featured Clip</h2>
-            <div class="video-container">
-                </div>
-        </section>
-    </main>
-
-    <script src="script.js"></script>
+    <section id="awards">
+        <h2>Awards</h2>
+        <!-- Add awards here -->
+        <ul>
+            <li>Award 1</li>
+            <li>Award 2</li>
+            <!-- Add more as needed -->
+        </ul>
+    </section>
+    <section id="film">
+        <h2>Watch Our Film</h2>
+        <!-- Replace 'video.mp4' with your actual video file or video link -->
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <section id="backstory">
+        <h2>Backstory</h2>
+        <p>
+            <!-- Add your film's backstory here -->
+            This is where the backstory of the film will go. It's a chilling tale...
+        </p>
+    </section>
 </body>
 </html>
