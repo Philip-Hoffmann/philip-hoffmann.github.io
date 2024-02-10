@@ -29,7 +29,7 @@ video {
 }
 ul{
     display: flex;
-    justfiy-content: center;
+    justifiy-content: center;
 }
 @media (max-width: 768px) {
     #film-logo {
