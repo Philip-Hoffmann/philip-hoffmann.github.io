@@ -1,5 +1,5 @@
 body {
-    background-image: src="dark-background.jpg";
+    background-image: url("dark-background.jpg");
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
