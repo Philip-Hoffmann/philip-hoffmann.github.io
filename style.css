@@ -34,7 +34,7 @@ header.hide {
 }
 
 .video-container {
-    position: relative;
+    position: center;
     width: 80%;
     max-width: 100%;
     margin: 30px auto;
