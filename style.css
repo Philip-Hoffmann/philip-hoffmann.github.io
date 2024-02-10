@@ -1,41 +1,35 @@
 body {
-    font-family: 'Arial', sans-serif; 
-    background-color: #222;
-    color: #eee; 
+    font-family: 'Arial', sans-serif;
     margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 header {
-    text-align: center;  /* Center the logo if desired */
+    margin: 20px 0;
 }
 
-#logo {
-    max-width: 100%;  /* Adjust width as needed */
-    height: auto;  /* Maintain aspect ratio */
-    display: block; /* Makes the logo act as a block element */
-    margin: 20px auto; /* Additional centering */
+#film-logo {
+    max-width: 200px;
+    height: auto;
 }
 
-/* Add a class to handle the 'hidden' state when scrolled */
-header.hide {
-    top: -100px; /* Move the header offscreen */
+#awards ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.image-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+#awards li {
+    margin: 10px 0;
 }
 
-.image-gallery img {
-    margin: 10px;
-    width: 250px;
-    box-shadow: 3px 3px 8px black;
+video {
+    width: 90%;
+    max-width: 600px;
 }
 
-.video-container {
-    position: center;
-    width: 80%;
-    max-width: 100%;
-    margin: 30px auto;
+@media (max-width: 768px) {
+    #film-logo {
+        max-width: 150px;
+    }
 }
