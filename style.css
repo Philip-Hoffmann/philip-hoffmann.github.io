@@ -19,8 +19,8 @@ header {
     height: auto;
 }
 #award-logo{
-    max-width: 100px;
-    height: 100px;
+    max-width: 150px;
+    height: 150px;
 }
 #awards ul {
     list-style-type: none;
