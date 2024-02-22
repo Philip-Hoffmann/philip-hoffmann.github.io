@@ -32,3 +32,7 @@ const videoElement = document.createElement('video');
 videoElement.src = featuredVideo;
 videoElement.controls = true;
 videoContainer.appendChild(videoElement);
+
+<style>
+@import url('https://fonts.cdnfonts.com/css/horror');
+</style>

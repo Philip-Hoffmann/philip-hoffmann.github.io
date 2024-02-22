@@ -3,7 +3,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #080808;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Horror', sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -17,10 +17,11 @@ header {
 #film-logo {
     max-width: 200px;
     height: auto;
+    margin-bottom: -80px;
 }
 #award-logo{
-    max-width: 150px;
-    height: 150px;
+    max-width: 200px;
+    height: 200px;
 }
 #awards ul {
     list-style-type: none;
@@ -44,3 +45,104 @@ ul{
         max-width: 150px;
     }
 }
+
+#backstory{
+    max-width: 500px;
+    margin-left: 500px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+
+.wrapper{
+    position: relative;
+    height: 350px;
+    width: 600px;
+    margin-bottom: 100px;
+}
+
+.wrapper .img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 450px;
+}
+
+.wrapper .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.wrapper .sliders {
+    position: absolute;
+    z-index: 99;
+    display: flex;
+    bottom: 20px;
+    left: 50px;
+    transform: translateX(-50%);
+    margin-left: 700px;
+}
+
+.wrapper .sliders label {
+    height: 14px;
+    width: 14px;
+    border: 3px solid #fff;
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.wrapper .sliders label:hover{
+    background: #fff;
+}
+
+#one:checked ~ .sliders label.one,
+#two:checked ~ .sliders label.two,
+#three:checked ~ .sliders label.three,
+#four:checked ~ .sliders label.four,
+#five:checked ~ .sliders label.five,
+#six:checked ~ .sliders label.six,
+#seven:checked ~ .sliders label.seven {
+    width: 35px;
+    border-radius: 14px;
+    background: #fff;
+}
+
+#one:checked ~ .img1 img{
+    clip-path: circle(150% at 0 100%);
+}
+
+#two:checked ~ .img2 img{
+    clip-path: circle(150% at 0 100%);
+}
+
+#three:checked ~ .img3 img{
+    clip-path: circle(150% at 0 100%);
+}
+
+#four:checked ~ .img4 img{
+    clip-path: circle(150% at 0 100%);
+}
+
+#five:checked ~ .img5 img{
+    clip-path: circle(150% at 0 100%);
+}
+
+#six:checked ~ .img6 img{
+    clip-path: circle(150% at 0 100%);
+}
+
+#seven:checked ~ .img7 img{
+    clip-path: circle(150% at 0 100%);
+}
+
