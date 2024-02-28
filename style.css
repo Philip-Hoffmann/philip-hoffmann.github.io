@@ -22,10 +22,16 @@ header {
 #award-logo{
     max-width: 200px;
     height: 200px;
+    padding-left: 300px;
+}
+#Kongelighof-logo{
+    width: 600px;
+    height: 400px;
+    padding-right: 100px;
 }
 #awards ul {
     list-style-type: none;
-    padding: 0;
+    padding-top: 10px;
 }
 
 #awards li {
@@ -35,6 +41,7 @@ header {
 video {
     width: 90%;
     max-width: 600px;
+    padding-bottom: 0px;
 }
 ul{
     display: flex;
@@ -48,16 +55,15 @@ ul{
 
 #backstory{
     max-width: 500px;
-    margin-left: 500px;
-    margin-bottom: 150px;
-    margin-top: 50px;
+    margin: auto;
+    padding-bottom: 100px;
 }
 
 .wrapper{
     position: relative;
-    height: 350px;
+    height: 400px;
     width: 600px;
-    margin-bottom: 100px;
+    margin: auto;
 }
 
 .wrapper .img{
@@ -67,7 +73,7 @@ ul{
     overflow: hidden;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    margin-left: 450px;
+    padding-bottom: 150px;
 }
 
 .wrapper .img img{
@@ -87,9 +93,8 @@ input[type="radio"]{
     z-index: 99;
     display: flex;
     bottom: 20px;
-    left: 50px;
+    left: 50%;
     transform: translateX(-50%);
-    margin-left: 700px;
 }
 
 .wrapper .sliders label {
